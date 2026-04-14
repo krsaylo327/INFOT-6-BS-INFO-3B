@@ -1,0 +1,4 @@
+Node.js version: 24.14.0
+npm version: 11.9.0
+Editor: VS Code
+OS: Windows
