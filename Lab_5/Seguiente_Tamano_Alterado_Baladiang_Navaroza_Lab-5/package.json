@@ -1,0 +1,21 @@
+{
+  "name": "my-first-api",
+  "version": "1.0.0",
+  "description": "My first Express API with SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.22.1"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
