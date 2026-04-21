@@ -1,0 +1,5 @@
+1. PUT is used for updating data because it modifies an existing resource at a specific URL, while POST is usually used to create a new resource. In this lab, the product already exists and we use its ID in the URL, so PUT is the correct method.
+
+2. Returning a 404 error is better because it tells the client that the product ID does not exist in the database. If the server always returned success, it would be misleading because no product was actually deleted.
+
+3. This Node.js server represents the backend API layer in modern API architecture. It receives requests from the frontend or mobile app, processes the logic, and communicates with the database.
